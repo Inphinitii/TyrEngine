@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GameEngine" />
+		<Option pch_mode="2" />
+		<Option compiler="clang" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GameEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="clang" />
+				<Compiler>
+					<Add option="-lX11" />
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="/home/inphinitii/Documents/GameEngine/" />
+					<Add directory="../../../../usr/include/X11" />
+				</Compiler>
+				<Linker>
+					<Add option="-lX11" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GameEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="clang" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Weverything" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AbstractWindow.h" />
+		<Unit filename="include/AbstractRenderer.h" />
+		<Unit filename="include/XWindow.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/AbstractRenderer.cpp" />
+		<Unit filename="src/XWindow.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
