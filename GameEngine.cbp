@@ -40,11 +40,15 @@
 			<Add option="-Weverything" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="AbstractWindow.h" />
 		<Unit filename="include/AbstractRenderer.h" />
+		<Unit filename="include/AbstractWindow.h" />
+		<Unit filename="include/GLX.h" />
+		<Unit filename="include/LogManager.h" />
 		<Unit filename="include/XWindow.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/AbstractRenderer.cpp" />
+		<Unit filename="src/GLX.cpp" />
+		<Unit filename="src/LogManager.cpp" />
 		<Unit filename="src/XWindow.cpp" />
 		<Extensions>
 			<code_completion />

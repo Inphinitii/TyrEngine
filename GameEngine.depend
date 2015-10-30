@@ -33,3 +33,33 @@
 	<stdio.h>
 	<string>
 
+1446240915 source:/home/inphinitii/Git/TyrEngine/main.cpp
+	<iostream>
+	"XWindow.h"
+	"LogManager.h"
+
+1446229373 /home/inphinitii/Git/TyrEngine/include/XWindow.h
+	"AbstractWindow.h"
+	<X11/Xlib.h>
+
+1446225240 /home/inphinitii/Git/TyrEngine/include/AbstractWindow.h
+
+1446240557 /home/inphinitii/Git/TyrEngine/include/LogManager.h
+	<stdio.h>
+	<string>
+
+1446183026 source:/home/inphinitii/Git/TyrEngine/src/AbstractRenderer.cpp
+	"AbstractRenderer.h"
+
+1446225070 /home/inphinitii/Git/TyrEngine/include/AbstractRenderer.h
+	"AbstractWindow.h"
+
+1446190560 source:/home/inphinitii/Git/TyrEngine/src/GLX.cpp
+	"GLX.h"
+
+1446190497 /home/inphinitii/Git/TyrEngine/include/GLX.h
+
+1446225047 source:/home/inphinitii/Git/TyrEngine/src/XWindow.cpp
+	"XWindow.h"
+	<iostream>
+
