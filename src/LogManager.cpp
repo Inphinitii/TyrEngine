@@ -33,9 +33,8 @@ bool Log::Close()
 	if(m_file != NULL)
 	{
 		if(fclose(m_file) != 0)
-		{
 			return false;
-		}
+
 		m_file = NULL;
 		return true;
 	}
@@ -49,6 +48,7 @@ bool Log::Write(std::string _toWrite , PRIORITY _type)
 		std::string _priorityLevel =  PriorityString[static_cast<int>(_type)];
 		std::string _output = "[" + _priorityLevel + "]:" + _toWrite;
 		fputs(_output.c_str(), m_file);
+
 		return true;
 	}
 	return false;
